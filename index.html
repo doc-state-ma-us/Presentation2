@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recruitment Analysis Presentation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-dot"></div>
+      <span>Recruitment Analysis Presentation</span>
+    </div>
+  </header>
+
+  <main class="home-screen">
+    <div class="bg-grid"></div>
+    <div class="orb orb-cyan"></div>
+    <div class="orb orb-gold"></div>
+    <div class="orb orb-red"></div>
+
+    <section class="hero-block">
+      <div class="eyebrow">PREMIUM CARD VIEW</div>
+      <h1>Open any topic card to present the full analysis.</h1>
+      <p>
+        This layout is built for presentation. Each card acts like a chapter.
+        Click a card to open its full analysis page, where you can place images,
+        charts, explanations, screenshots, and recommendations.
+      </p>
+    </section>
+
+    <section class="card-grid">
+      <button class="topic-card" data-modal="introModal">
+        <span class="card-number">01</span>
+        <h3>Intro</h3>
+        <p>Open the opening context, story setup, and presentation overview.</p>
+      </button>
+
+      <button class="topic-card" data-modal="pressureModal">
+        <span class="card-number">02</span>
+        <h3>Pressure</h3>
+        <p>Show the recruitment pressure points, delays, and structural challenge.</p>
+      </button>
+
+      <button class="topic-card" data-modal="funnelModal">
+        <span class="card-number">03</span>
+        <h3>Funnel</h3>
+        <p>Display the candidate funnel and the analysis of conversion loss.</p>
+      </button>
+
+      <button class="topic-card" data-modal="systemModal">
+        <span class="card-number">04</span>
+        <h3>System</h3>
+        <p>Explain the framework, process design, and operating model.</p>
+      </button>
+
+      <button class="topic-card" data-modal="databaseModal">
+        <span class="card-number">05</span>
+        <h3>Database</h3>
+        <p>Present the recruitment database, tracking logic, and accountability.</p>
+      </button>
+
+      <a class="topic-card" href="growth.html">
+  <span class="card-number">06</span>
+  <h3>Growth</h3>
+  <p>Show the quarterly growth, participation, and momentum analysis.</p>
+</a>
+
+      <button class="topic-card" data-modal="impactModal">
+        <span class="card-number">07</span>
+        <h3>Impact</h3>
+        <p>Present outcomes, final recommendations, and investment-worthy impact.</p>
+      </button>
+    </section>
+  </main>
+
+  <!-- INTRO MODAL -->
+  <div class="modal" id="introModal">
+    <div class="modal-content">
+      <button class="close-btn">&times;</button>
+      <div class="modal-header">
+        <div>
+          <div class="eyebrow">INTRO</div>
+          <h2>Presentation Opening</h2>
+          <p class="modal-subtitle">
+            Use this section to introduce the full story, goal, and what the audience should expect.
+          </p>
+        </div>
+      </div>
+
+      <div class="modal-grid">
+        <div class="image-box">
+          <h4>Image / Hero Visual Area</h4>
+          <p>Place opening image, team photo, logo, or cover visual here.</p>
+        </div>
+
+        <div class="analysis-box">
+          <h4>Full Analysis</h4>
+          <p>
+            Add your introduction narrative here. You can explain the purpose of the presentation,
+            the problem statement, the team vision, and the strategic direction.
+          </p>
+          <p>
+            Example: “This presentation shows how the recruitment team is moving from
+            disconnected effort to a measurable conversion system.”
+          </p>
+        </div>
+      </div>
+
+      <div class="insight-box">
+        <strong>Key takeaway:</strong> Put your opening message here.
+      </div>
+    </div>
+  </div>
+
+  <!-- PRESSURE MODAL -->
+  <div class="modal" id="pressureModal">
+    <div class="modal-content">
+      <button class="close-btn">&times;</button>
+      <div class="modal-header">
+        <div>
+          <div class="eyebrow">PRESSURE</div>
+          <h2>Recruitment Pressure Analysis</h2>
+          <p class="modal-subtitle">
+            Use this area to present the structural issues, bottlenecks, and operational pressure.
+          </p>
+        </div>
+      </div>
+
+      <div class="modal-grid">
+        <div class="image-box">
+          <h4>Image / Chart / Screenshot Area</h4>
+          <p>Place a visual of pressure points, timeline, or problem breakdown here.</p>
+        </div>
+
+        <div class="analysis-box">
+          <h4>Full Analysis</h4>
+          <ul>
+            <li>Add the structural recruitment crisis analysis here</li>
+            <li>Add delay analysis here</li>
+            <li>Add retirement pressure findings here</li>
+            <li>Add your interpretation here</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="insight-box">
+        <strong>Key takeaway:</strong> Explain why this problem is structural, not temporary.
+      </div>
+    </div>
+  </div>
+
+  <!-- FUNNEL MODAL -->
+  <div class="modal" id="funnelModal">
+    <div class="modal-content modal-wide">
+      <button class="close-btn">&times;</button>
+      <div class="modal-header">
+        <div>
+          <div class="eyebrow">FUNNEL</div>
+          <h2>Candidate Funnel Analysis</h2>
+          <p class="modal-subtitle">
+            This section should show the conversion loss clearly and visually.
+          </p>
+        </div>
+      </div>
+
+      <div class="modal-grid">
+        <div class="image-box">
+          <h4>Funnel Chart Area</h4>
+          <p>Place your funnel chart, graph, screenshot, or visual here.</p>
+        </div>
+
+        <div class="analysis-box">
+          <h4>Full Analysis</h4>
+          <p>Add your 2,500 → 430 → 132 analysis here.</p>
+          <p>Add the interpretation of the ~5% conversion here.</p>
+          <p>Add the improvement opportunity here.</p>
+        </div>
+      </div>
+
+      <div class="insight-box">
+        <strong>Key takeaway:</strong> This is not an awareness problem. It is a conversion problem.
+      </div>
+    </div>
+  </div>
+
+  <!-- SYSTEM MODAL -->
+  <div class="modal" id="systemModal">
+    <div class="modal-content">
+      <button class="close-btn">&times;</button>
+      <div class="modal-header">
+        <div>
+          <div class="eyebrow">SYSTEM</div>
+          <h2>Recruitment System Analysis</h2>
+          <p class="modal-subtitle">
+            Use this to explain the framework, process logic, and how the system works.
+          </p>
+        </div>
+      </div>
+
+      <div class="modal-grid">
+        <div class="image-box">
+          <h4>Framework Diagram Area</h4>
+          <p>Place system flow, recruitment engine diagram, or process map here.</p>
+        </div>
+
+        <div class="analysis-box">
+          <h4>Full Analysis</h4>
+          <p>Add analysis of the four frameworks here.</p>
+          <p>Add why each framework matters here.</p>
+          <p>Add how each one supports the candidate journey here.</p>
+        </div>
+      </div>
+
+      <div class="insight-box">
+        <strong>Key takeaway:</strong> The team is building a system, not just running tactics.
+      </div>
+    </div>
+  </div>
+
+  <!-- DATABASE MODAL -->
+  <div class="modal" id="databaseModal">
+    <div class="modal-content">
+      <button class="close-btn">&times;</button>
+      <div class="modal-header">
+        <div>
+          <div class="eyebrow">DATABASE</div>
+          <h2>Recruitment Database Analysis</h2>
+          <p class="modal-subtitle">
+            Use this section to show the role of the database in accountability and tracking.
+          </p>
+        </div>
+      </div>
+
+      <div class="modal-grid">
+        <div class="image-box">
+          <h4>Database Visual Area</h4>
+          <p>Place screenshots, architecture, tables, or dashboard visuals here.</p>
+        </div>
+
+        <div class="analysis-box">
+          <h4>Full Analysis</h4>
+          <p>Add how the database captures data here.</p>
+          <p>Add tracking, reminders, automation, and accountability logic here.</p>
+          <p>Add why this is a turning point here.</p>
+        </div>
+      </div>
+
+      <div class="insight-box">
+        <strong>Key takeaway:</strong> The database converts effort into infrastructure.
+      </div>
+    </div>
+  </div>
+
+  <!-- GROWTH MODAL -->
+  <div class="modal" id="growthModal">
+    <div class="modal-content">
+      <button class="close-btn">&times;</button>
+      <div class="modal-header">
+        <div>
+          <div class="eyebrow">GROWTH</div>
+          <h2>Growth and Momentum Analysis</h2>
+          <p class="modal-subtitle">
+            Use this area to present quarterly growth, cumulative movement, and future momentum.
+          </p>
+        </div>
+      </div>
+
+      <div class="modal-grid">
+        <div class="image-box">
+          <h4>Growth Chart Area</h4>
+          <p>Place quarterly participation chart, trend chart, or graph here.</p>
+        </div>
+
+        <div class="analysis-box">
+          <h4>Full Analysis</h4>
+          <p>Add Q2, Q3, Q4, Q1 projection analysis here.</p>
+          <p>Add your interpretation of cumulative participation growth here.</p>
+          <p>Add future-state outlook here.</p>
+        </div>
+      </div>
+
+      <div class="insight-box">
+        <strong>Key takeaway:</strong> The system is already creating measurable momentum.
+      </div>
+    </div>
+  </div>
+
+  <!-- IMPACT MODAL -->
+  <div class="modal" id="impactModal">
+    <div class="modal-content">
+      <button class="close-btn">&times;</button>
+      <div class="modal-header">
+        <div>
+          <div class="eyebrow">IMPACT</div>
+          <h2>Impact and Final Recommendation</h2>
+          <p class="modal-subtitle">
+            Use this final card to present outcomes, future impact, and why the work deserves backing.
+          </p>
+        </div>
+      </div>
+
+      <div class="modal-grid">
+        <div class="image-box">
+          <h4>Impact Visual Area</h4>
+          <p>Place final dashboard, impact card, recommendation chart, or outcome visual here.</p>
+        </div>
+
+        <div class="analysis-box">
+          <h4>Full Analysis</h4>
+          <p>Add final outcomes here.</p>
+          <p>Add why this work matters here.</p>
+          <p>Add recommendations, investment case, and next steps here.</p>
+        </div>
+      </div>
+
+      <div class="insight-box">
+        <strong>Key takeaway:</strong> This is recruitment infrastructure, not just recruitment activity.
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
